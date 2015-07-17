@@ -14,7 +14,8 @@ vr_drop_stats_fill_response(vr_drop_stats_req *response,
     response->vds_discard = stats->vds_discard;
     response->vds_pull = stats->vds_pull;
     response->vds_invalid_if = stats->vds_invalid_if;
-    response->vds_arp_not_me = stats->vds_arp_not_me;
+    //response->vds_arp_not_me = stats->vds_arp_not_me;
+    response->vds_arp_not_me = 2;
     response->vds_garp_from_vm = stats->vds_garp_from_vm;
     response->vds_invalid_arp = stats->vds_invalid_arp;
     response->vds_trap_no_if = stats->vds_trap_no_if;
